@@ -1,0 +1,24 @@
+{
+  "name": "isomorphic-web-audio-api",
+  "version": "1.0.0",
+  "description": "Isomorphic implementation of the Web Audio API",
+  "license": "BSD-3-Clause",
+  "author": "",
+  "type": "module",
+  "exports": {
+    "module": "./browser.js",
+    "node": "./node.js",
+    "types": "./types.d.ts"
+  },
+  "scripts": {
+    "test": "node --test tests/*.spec.js"
+  },
+  "dependencies": {
+    "node-web-audio-api": "^1.0.2"
+  },
+  "devDependencies": {
+    "@ircam/sc-utils": "^1.9.0",
+    "chai": "^5.2.0",
+    "esbuild": "^0.25.0"
+  }
+}

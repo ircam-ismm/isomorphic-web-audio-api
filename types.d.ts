@@ -1,6 +1,6 @@
 // Referencing the default lib web api typings
 /// <reference lib="dom" />
-declare module "node-web-audio-api" {
+declare module "isomorphic-web-audio-api" {
   export import OfflineAudioCompletionEvent = globalThis.OfflineAudioCompletionEvent;
   export import AudioProcessingEvent = globalThis.AudioProcessingEvent;
   // not implemented in browsers yet

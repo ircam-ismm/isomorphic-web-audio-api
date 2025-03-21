@@ -1,9 +1,13 @@
 {
   "name": "isomorphic-web-audio-api",
   "version": "1.0.1",
+  "author": "Benjamin Matuszewski",
   "description": "Isomorphic implementation of the Web Audio API",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ircam-ismm/isomorphic-web-audio-api.git"
+  },
   "license": "BSD-3-Clause",
-  "author": "",
   "type": "module",
   "exports": {
     "module": "./browser.js",

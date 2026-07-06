@@ -17,12 +17,12 @@
   "scripts": {
     "test": "node --test tests/*.spec.js"
   },
-  "dependencies": {
-    "node-web-audio-api": "^2.0.0"
-  },
   "devDependencies": {
     "@ircam/sc-utils": "^1.9.0",
     "chai": "^5.2.0",
     "esbuild": "^0.25.0"
+  },
+  "peerDependencies": {
+    "node-web-audio-api": "*"
   }
 }
